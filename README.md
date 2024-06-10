@@ -1,4 +1,4 @@
-# MacOS Kit from OS11 to 13 💻
+# MacOS Kit for BigSur -> Ventura 💻
 ## A kit to install macOS on the ThinkPad T460 (Powered by OpenCore)
 
 ### Before you continue, let's change to these BIOS Settings for better compatibility
@@ -23,7 +23,7 @@
 ### _I'm not responsible for any damage made to your computer by installing macOS on it so try installing it on a secondary cheap SSD first instead of your actual windows disk._
 
 ### 1 : Format the USB
-Open Rufus (cause balenaetcher doesn't work some times for no particular reason) and select these options :
+Open Rufus and select these options :
 * Boot selection : Not bootable
 * Filesystem : Large FAT32
 * Partition: GPT
@@ -63,7 +63,7 @@ On the new window, select your biggest partition of your internal drive (the one
 
 Then, close the Disk Utility
 
-### 5 : Connect your laptop to the WI-FI or Ethernet
+### 5 : Connect your laptop to the Internet
 This is required for downloading macOS as this is simply a recovery img.
 
 ### 5.5 : Install macOS
